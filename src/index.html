@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html ng-app="app">
+
+<head>
+  <meta charset="UTF-8">
+  <title>
+    <%= htmlWebpackPlugin.options.title %>
+  </title>
+</head>
+
+<body ng-controller="TestController">
+  <div class="container">
+    <div class="row">
+      <div class="span12">
+        <h1>Testformulär</h1>
+      </div>
+    </div>
+    <div class="row">
+      <div class="span12">
+        <form class="form-horizontal well">
+	  <input type="text" ng-model="message">
+        </form>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
